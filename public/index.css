@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://wallpaperaccess.com/full/795912.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  #header {
+    background-image: linear-gradient(
+      to right,
+      rgba(27, 28, 32, 0.774),
+      rgba(33, 34, 36, 0.849),
+      rgb(20, 20, 20),
+      rgba(2, 2, 19)
+    );
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+  }
+  
+  #header-image{
+    width: 5vw;
+    height: 7vh;
+   
+  }
+  #logo {
+    color: rgb(70, 255, 230);
+    text-shadow: 1px 1px 4px rgb(164, 177, 182);
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    overflow: hidden;
+  }
+  li {
+    float: right;
+  }
+  #nav-bar li a {
+    display: block;
+    color: rgb(200, 158, 224);
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  #nav-bar li a:hover {
+    background-color: white;
+    color: blue;
+    border-radius: 0.1em;
+  }
+  
+  #main {
+    margin: 0;
+    background-image: linear-gradient(
+      to right,
+      rgba(26, 26, 27, 0.151),
+      rgba(26, 26, 27, 0.267),
+      rgba(22, 21, 22, 0.007),
+      rgba(19, 18, 19, 0.034),
+      rgb(0, 0, 0)
+    );
+  
+    height: auto;
+    width: 100%;
+  }
+  
+  .header-text {
+    
+    font-size: 7vw;
+    color: white;
+    padding-top: 10%;
+    padding-right: 40%;
+    padding-left: 10%;
+  }
+  
+  #head-info {
+    padding: 20px;
+    padding-right: 60%;
+    padding-left: 10%;
+    color: rgb(252, 252, 252);
+    height: 20%;
+  }
+  #contect {
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .input {
+    margin: 6px auto 25px auto;
+    padding-left: 10px;
+    width: 50%;
+    height: 40px;
+    border-radius: 0.25rem;
+    border: 2px solid rgb(8, 8, 59);
+    font-family: "Segoe UI";
+    font-size: medium;
+    box-sizing: border-box;
+    color: #121213e8;
+    text-align: center;
+    background-color: rgb(114, 114, 216);
+  }
+  #about {
+    /* background-image: url("https://media.istockphoto.com/photos/close-up-of-black-wrist-watch-with-golden-details-picture-id1386061196?b=1&k=20&m=1386061196&s=170667a&w=0&h=O5rgW7KPqLAjrz05XLASmW43ZqCRPdX8ow6SwM8DfD8=");
+    background-repeat: no-repeat;
+    background-size: 100% 700px; */
+    display: grid;
+    grid-template-rows: auto 90%;
+    /* background-image: linear-gradient(
+      to bottom,
+      rgba(16, 16, 17, 0.315),
+      rgba(139, 138, 141, 0.466),
+      rgba(151, 149, 153, 0.801),
+      rgba(177, 172, 177, 0.479),
+      rgb(0, 0, 0)
+    ); */
+    background-color:rgb(14, 13, 13);
+    height: auto;
+    width: 100%;
+    padding: 20px 0 20px 0;
+  }
+  .mar1{
+    margin-left: 30px !important;
+}
+.mar2{
+    margin-left: 250px !important;
+}
+  .text {
+    margin: 20px;
+  
+    font-size: 6vw;
+    text-align: center;
+    color: rgb(242, 242, 247);
+  }
+  .features {
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+  }
+  .feature-info{
+      font-size: medium;
+  }
+  .feature-box {
+    background-color:#000;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    /* margin-left: 140px; */
+    box-shadow: 1px 1px 10px 5px rgb(13, 13, 14);
+    border-radius: 0.3em;
+    max-height: 600px;
+  
+    width: 50%;
+    border: 2px double rgb(97, 92, 92);
+    color: rgb(241, 233, 233);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  
+  #video {
+    background-image: url("https://media.istockphoto.com/photos/close-up-of-black-wrist-watch-with-golden-details-picture-id1386061196?b=1&k=20&m=1386061196&s=170667a&w=0&h=O5rgW7KPqLAjrz05XLASmW43ZqCRPdX8ow6SwM8DfD8=");
+    /* background-image: url("https://cdn.wallpapersafari.com/52/1/oBDIgE.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+   /*
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  #video-content {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(16, 16, 17, 0),
+      rgba(104, 57, 214, 0),
+      rgba(88, 35, 172, 0.007),
+      rgba(128, 0, 128, 0.034),
+      rgba(0, 0, 0, 0.007)
+    );
+    max-height: fit-content;
+    height: inherit;
+    /* //padding: 10% 80px; */
+    font-size: 2vw;
+    text-shadow: 5px 3px 3px black;
+  }
+  iframe {
+    width: 40vw;
+    height: 50vh;
+  }
+  
+  #price {
+    background-image: linear-gradient(to left top, rgb(7, 5, 7), black, black);
+    color: white;
+    height: auto;
+    font-size: 20px;
+    padding: 100px 70px 30px 130px;
+    
+  }
+  /* .box{
+
+  } */
+  .item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .item-content {
+    width: 250px;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    border: 2px double white;
+    border-radius: 0.2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .item-img{
+      height: 150px;
+      width:inherit ;
+  }
+  .price-text {
+      font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .box:hover {
+    box-shadow: 1px 1px 10px white;
+  }
+  .input:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 1px 1px 10px grey;
+  }
+  .input1 {
+    background-color: white;
+  }
+  .input1:hover {
+    background-color: white;
+    color: black;
+  }
+  .input2 {
+    width: 100px;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .item {
+      display: block;
+    }
+    .item-content {
+      margin-bottom: 50px;
+    }
+    .video-content {
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+      height: auto;
+    }
+    .features {
+      display: block;
+    }
+    .feature-box {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    #img-content {
+      background-image: linear-gradient(
+        to bottom,
+        rgb(16, 16, 17),
+        rgb(22, 22, 24),
+        rgba(88, 35, 172, 0.527),
+        rgba(128, 0, 128, 0.473),
+        black,
+        black
+      );
+    }
+    iframe {
+      width: 95%;
+    }
+    .text {
+      font-size: 40px;
+    }
+    .header-text {
+      padding-top: 120px;
+    }
+  }
+  
+  footer {
+    background-color: #ddd;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    display: list-item;
+  
+    list-style: none;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  footer > ul > li > a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+.quotess{
+  color:white;
+}  
+
+/* react */
+.hello{
+  float: right;
+  padding-top: 15%;
+  padding-right:120px;
+  /* color:rgb(158, 27, 27); */
+}
+.watch-box{
+  background-color: white;
+  color:black;
+  
+}
